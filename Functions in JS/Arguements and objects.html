@@ -6,21 +6,21 @@
     <p id= "result"></p>
     <script>
 
-        function findMax () {
+        function sum () {
             var i;
             var max = 0;
             for(i = 0; i <arguments.length;  i++) {
                 if (arguments[i] > max) {
                     max = arguments[i];
                 }
-
+sum=sum+arguments[i]
             }
 
-            return max;
+            return ;
 
         }
 
-        document.getElementById("result").innerHTML = findMax(4,5,6)
+        document.getElementById("result").innerHTML = sum(48,59,13,597,459,76)
     </script>
 </Body>
 </html>
