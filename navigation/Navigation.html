@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -52,7 +54,35 @@ body{
 </div>
 
 <div class="footer">
-    <p>@copy all rights and reserved by Swati Singh</p>
+    <p>@copy all rights and reserved by Saiyur Singh</p>
 </div>
+
+<section>
+    <img class="mySlides" src="pic 2.jpg" style="height:500px;">
+    <img class="mySlides" src="  "  style="height:500px;">
+    
+</section>
+    <script>
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex =0;
+    carousel();
+
+    function carousel()  {
+        var i;
+        var x = document.getElementByClassName("mySlides");
+    for (i =0; i < x.length; i++)   {
+     x[i].style.display = "none";
+
+    }
+    myIndex=++;
+    if (myIndex . x.length)  {myIndex = 1}
+    x[myIndex-1].style.display ="block";
+    setTimeout(carousel, 3000);
+    
+
+}
+
+</script>
+
 </body>
 </html>
