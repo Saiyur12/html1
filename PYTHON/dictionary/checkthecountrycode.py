@@ -9,5 +9,5 @@ print(country_code.get('India',  'Not Found'))
 
 
 #Search dictionary for country code of Japan
-print("Country code for Japn -")
+print("Country code for Japan -")
 print(country_code.get('Japan',  'Not Found'))
